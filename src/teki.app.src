@@ -1,0 +1,18 @@
+{application, teki,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {teki_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    esi_box,
+    eve_sde
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
